@@ -5,6 +5,7 @@ header{
   left: 0;
   right: 0;
   background-color: white;
+  z-index: 10;
 }
 
 #navbar-top {
@@ -31,22 +32,22 @@ header{
   color: #0069ff;
 }
 
+
 .navbar-top-right a{
   margin-left: 20px;
   text-decoration: none;
-
 }
 
 #menu img{
   width: 170px;
   position: relative;
   top: -5px;
+  margin-left: 15px;
 }
 
 #menu .list-inline {
   display: inline-block;
   margin-left: 30px;
-
 }
 
 #menu .list-inline li a{
@@ -59,14 +60,6 @@ header{
 
 #menu .list-inline li a:hover{
   color: #0069ff;
-
-}
-
-#jumbotron{
-  height: 800px;
-  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #navbar-bottom {
@@ -86,10 +79,152 @@ header{
   border-color: white;
 }
 
+#jumbotron{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+}
+
+.jumbotron-text{
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  padding-right: 15%;
+  margin
+}
+
+.jumbotron-text h1{
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+
+.jumbotron-text p{
+  font-size: 24px;
+}
+
+.form{
+  width: 100%;
+  background-color: white;
+  padding: 32px;
+  margin-top: 100px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.form h2{
+  margin-bottom: 30px;
+}
+
+.form input{
+  margin-bottom: 15px;
+  padding: 25px;
+}
+
+.form p{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form button{
+  background-color: #0069ff;
+  padding: 15px 0;
+
+}
+
+.form button:hover{
+  background-color: darkblue;
+}
+
+.button-form{
+  width: 47.5%;
+  color: #031b4e;
+  background: #f2f8ff;
+  border: 1px solid rgba(0,105,255,.2);
+  border-radius: 3px;
+  display: inline-block;
+  padding: 15px;
+}
+
+.button-form span{
+  text-align: center;
+  margin-left: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.github{
+  margin-left: 15px;
+}
+
+ .form small{
+  text-align: center;
+  margin: 20px 0;
+}
+
+#costumer-stories{
+  background-color: #F3F5F9;
+}
+
+#costumer-stories .container{
+  padding: 0 25px;
+}
+
+#costumer-stories .last{
+  margin-bottom: 50px;
+}
+#costumer-stories .col-lg-2{
+  position: relative;
+  margin: 50px 0;
+}
+
+#costumer-stories img{
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#costumer-stories p{
+  text-align: center;
+  text-transform: uppercase;
+  color: #A9B1C4;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+#costumer-stories p a{
+  color: #0069ff;
+  text-transform: lowercase;
+  font-size: 18px;
+}
+
+#costumer-stories p a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
 @media screen and (max-width:1150px){
   header{
     display: none;
   }
 
+  #jumbotron .container {
+    width: 100%;
+  }
 
+}
+@media screen and (max-width:1200px){
+  .jumbotron-text h1{
+    font-size: 54px;
+  }
+}
+@media screen and (max-width:1000px){
+  .jumbotron-text h1{
+    font-size: 46px;
+  }
 }
