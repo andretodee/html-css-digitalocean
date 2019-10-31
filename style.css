@@ -204,6 +204,178 @@ header{
   text-decoration: none;
 }
 
+#deploy .container{
+  padding: 36px;
+}
+
+.deploy-text h2{
+  font-size: 36px;
+  color: #031b4e;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.deploy-text p{
+  font-size: 20px;
+  color: rgba(3,27,78,.5);
+}
+
+.container-deploy-col{
+  width: 77%;
+  margin: auto;
+}
+
+.deploy-list{
+  border-left: 2px solid black;
+  padding: 8px 30px;
+
+}
+
+.container-deploy-col .prima{
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.deploy-list:first-child{
+  border-color: #0069ff;
+  color: #081F51;
+}
+
+.deploy-list:not(:first-child){
+  border-color: #E5E8ED;
+  color:  rgba(3,27,78,.5);
+}
+
+.deploy-list:not(:first-child):hover{
+  color: black;
+}
+
+
+.container-deploy-col .col-lg-4{
+  margin-top: 30px;
+}
+
+.container-deploy-col h3{
+  font-size: 18px;
+  color: #031b4e;
+}
+
+.container-deploy-col p{
+  font-size: 16px;
+  color:  rgba(3,27,78,.5);
+
+}
+
+.seconda p{
+  margin-bottom: 40px;
+}
+
+#designed{
+  background-color: #F3F5F9;
+  padding: 80px 0;
+}
+
+.designed-text h2{
+  font-size: 36px;
+  color: #031b4e;
+  margin-bottom: 20px;
+}
+
+.designed-text p{
+  font-size: 20px;
+  color: rgba(3,27,78,.5);
+  margin-bottom: 60px;
+}
+
+.designed-image{
+  position: relative;
+
+}
+
+.designed-image img{
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.freccia-sx{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+
+}
+
+.freccia-dx{
+  position: absolute;
+  top: 35%;
+  right: 20%;
+
+}
+
+.designed-last-text{
+  font-size: 16px;
+  color: color:  rgba(3,27,78,.5);
+}
+
+.ball{
+  display: inline-block;
+  background-color: #F3F5F9;
+  border: 2px solid #0069ff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin:30px 5px;
+}
+
+.ball:hover{
+  cursor: pointer;
+}
+
+.ball:first-child{
+  background-color: #0069ff;
+}
+
+.ball:not(:first-child):hover{
+  background-color: lightgrey;
+
+}
+
+#build{
+  background: white;
+  padding-bottom: 100px;
+}
+
+#build h2{
+  font-size: 36px;
+  color: #031b4e;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+#build h3{
+  color: #031b4e;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#build p{
+  color: #4E5F83;
+  font-size: 17px;
+  width: 95%;
+}
+
+#build a{
+  font-size: 16px;
+  color: #0069ff;
+  marg
+}
+
+#build a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
 
 
 
@@ -227,4 +399,11 @@ header{
   .jumbotron-text h1{
     font-size: 46px;
   }
+}
+
+@media screen and (max-width:768px){
+
+  }
+
+
 }
