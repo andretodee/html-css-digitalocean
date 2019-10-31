@@ -376,6 +376,55 @@ header{
   color: blue;
 }
 
+#data-centers{
+  background: #031b4e;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+
+}
+
+#data-centers h2{
+  color: white;
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+.column-one,.column-two{
+  margin-bottom: 100px;
+}
+
+.column1{
+  margin-right: 10%;
+}
+
+.line{
+  border-bottom: 1px solid #959FB5;
+  padding: 10px;
+  width: 95%;
+}
+
+.line .targa{
+  color: white;
+  font-size: 16px;
+  margin-right: 60px;
+}
+
+.line .cities{
+  color: #959FB5;
+  font-size: 14px;
+}
+
+.line .speed-test a{
+  font-size: 14px;
+  float: right;
+  color: #04CCCA;
+  text-decoration: none;
+}
+
+
 
 
 
